@@ -14,7 +14,7 @@ public class GetEndPointController {
      private GetEndPointServices getEndPointServices;
 
 
-    @GetMapping
+    @GetMapping("/api")
     public ResponseEntity<GetEndPointResponse> GetEndPoint(@RequestParam("slack_name") String slackName, @RequestParam("track") String track){
     return ResponseEntity.ok(getEndPointServices.getEndpoint(slackName,track));
     }
