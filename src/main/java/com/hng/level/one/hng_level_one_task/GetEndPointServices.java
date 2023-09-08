@@ -19,7 +19,7 @@ public class GetEndPointServices {
         getEndPointResponse.setTrack(track);
         getEndPointResponse.setStatus_code(200);
         getEndPointResponse.setGithub_repo_url("https://github.com/jenny-Musah/HNG_LEVEL_ONE");
-        getEndPointResponse.setGithub_file_url("https://github.com/jenny-Musah/HNG_LEVEL_ONE/HNG Level One Task/src/main/java/com/hng/level/one/hng_level_one_task/HngLevelOneTaskApplication.java");
+        getEndPointResponse.setGithub_file_url("https://github.com/jenny-Musah/HNG_LEVEL_ONE/src/main/java/com/hng/level/one/hng_level_one_task/HngLevelOneTaskApplication.java");
         getEndPointResponse.setUtc_time(getCurrentUTCTime());
         getEndPointResponse.setCurrent_day(getCurrentDay());
         return getEndPointResponse;
